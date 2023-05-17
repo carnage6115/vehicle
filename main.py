@@ -54,8 +54,8 @@ while(True):
 
 print("Vehicles Details is :")
 print("-------------------------")
-for v in garage:
-  print(v.printDetails())
+for a in garage:
+  print(a.printDetails())
 
   
   
