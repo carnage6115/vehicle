@@ -8,7 +8,7 @@ class Vehicle:
     return self.make
   def getModel(self):
     return self.model
-
+#making a car class
 class Car(Vehicle):
   def __init__(self, make, model, doorNum):
     Vehicle.__init__(self, make, model)
